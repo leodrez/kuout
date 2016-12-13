@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 feedWrapper text-center">
+      <% for (var i = 0; i< kuouts.length; i++) { %>
+        <div class="quote-wrapper">
+          <img class="image-quote" src="<%= kuouts[i].image %>" alt='<%= kuouts[i].kuout %>'>
+          <p class="text-feed"><%= kuouts[i].kuout %></p>
+        </div>
+        <% } %>
+    </div>
+  </div>
+</div>
