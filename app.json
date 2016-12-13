@@ -1,0 +1,8 @@
+{
+  "name": "Kuout",
+  "description": "Inspiration sharing app",
+  "repository": "https://github.com/leodrez/kuout",
+  "logo": "./public/img/logo/k-logo-bb.png",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
